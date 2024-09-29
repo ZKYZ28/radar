@@ -1,0 +1,2 @@
+/usr/bin/ar qc libservo_lib.a CMakeFiles/servo_lib.dir/servo.c.o
+/usr/bin/ranlib libservo_lib.a

@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "servo",
+					"jsonFile" : "directory-servo-Debug-78698253215dfb12fa97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "servo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "sonar",
+					"jsonFile" : "directory-sonar-Debug-2d1441f372760f6d72cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sonar",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "radar",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "radar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-radar-Debug-4defee05fdd4f0407f3f.json",
+					"name" : "radar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "servo_lib::@464b21be7733fb60dba3",
+					"jsonFile" : "target-servo_lib-Debug-e2253da0b8a5d9a113a2.json",
+					"name" : "servo_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sonar_lib::@60e1ce31950941dc959e",
+					"jsonFile" : "target-sonar_lib-Debug-21010bfd826cbfb48eb8.json",
+					"name" : "sonar_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/franc/Desktop/DEV/radar/cmake-build-debug",
+		"source" : "C:/Users/franc/Desktop/DEV/radar"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

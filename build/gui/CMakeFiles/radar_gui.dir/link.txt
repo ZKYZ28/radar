@@ -1,0 +1,2 @@
+/usr/bin/ar qc libradar_gui.a CMakeFiles/radar_gui.dir/radar_gui.c.o
+/usr/bin/ranlib libradar_gui.a

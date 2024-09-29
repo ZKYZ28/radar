@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsonar_lib.a CMakeFiles/sonar_lib.dir/sonar.c.o
+/usr/bin/ranlib libsonar_lib.a
